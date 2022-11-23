@@ -12,7 +12,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s-r 0",
     "postversion": "pnpm run git:publish && pnpm run npm:publish",
     "git:publish": "git push && git push --tags",
-    "npm:publish": "pnpm publish"
+    "npm:publish": "pnpm publish --access public"
   },
   "eslintConfig": {
     "extends": [
