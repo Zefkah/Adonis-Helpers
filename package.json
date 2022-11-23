@@ -1,6 +1,6 @@
 {
   "name": "@zefkah/adonis-helpers",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
